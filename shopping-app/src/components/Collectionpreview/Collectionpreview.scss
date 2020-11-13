@@ -1,0 +1,26 @@
+.title{
+    text-align:left;
+    font-weight: bold;
+}
+.preview{
+    display: flex;
+    width: 100%;
+}
+.collection-footer{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    font-size:15px;
+    margin:2px;
+    .collection-name{
+        text-align: left;
+        width: 90%;
+    };
+    .collection-price{
+        text-align:right;
+        width: 10%;
+    }
+}
+.collection-footer img{
+    width: fit-content;
+}

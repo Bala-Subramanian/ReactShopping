@@ -1,0 +1,36 @@
+.headerCls{
+    height: 70px;
+    width:100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    .options{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;//too keep the elements at the end(right side)
+        .option{
+            margin: 5px;
+            padding:5px;
+        }
+    }
+    h1{
+        width: 250px;
+
+    }
+}
+.subheaderCls{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:right;
+}
+img{
+    height:auto;
+    width : 10%;
+}
