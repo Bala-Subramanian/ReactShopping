@@ -6,6 +6,7 @@ import Homepage from './components/Homepage';
 import Shoppage from "./components/Shop/Shoppage";
 import LoginComponent from './components/LoginPage/LoginPage';
 import Productpage from "./components/Productpage/Productpage";
+
 const ProductDetails = (props) => {
     console.log(props);
     return (<div>
@@ -27,7 +28,6 @@ function App() {
             <Route path="/mens" component={Productpage} />
             <Route path="/womens" component={Productpage} />
             <Route path="/jackets" component={Productpage} />
-
             <Route path="/shop/:product" component={ProductDetails} />
         </Switch>
     </div>

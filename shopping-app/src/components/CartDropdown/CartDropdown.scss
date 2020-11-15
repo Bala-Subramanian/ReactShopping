@@ -1,0 +1,10 @@
+.cart-dropdown{
+    border: 1px solid black;
+    z-index: 5;
+}
+.card-item{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
