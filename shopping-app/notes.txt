@@ -5,7 +5,7 @@
     (>>>npm install -g create-react-app reactapp<<<)
 
 ** Order of commands:
-npm install -g create-react-app reactapp
+npm install -g create-react-app reactapp or npx create-react-app reactbasicsapp
 npm install react-router-dom
 npm install --save bootstrap
 npm install --save prop-types
