@@ -2,7 +2,15 @@
     create a folder with project name
     open npm and redirect to the path.
     npm create-react-app shopping-app
+    (>>>npm install -g create-react-app reactapp<<<)
 
+** Order of commands:
+npm install -g create-react-app reactapp
+npm install react-router-dom
+npm install --save bootstrap
+npm install --save prop-types
+npm install axios
+npm start
 
 **After project creation, Change directory to the src folder and type
     'npm start' or 'yarn start'
